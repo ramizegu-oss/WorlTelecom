@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.4s;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header-first-section {
+    background-color: #383e42;
+    height: 3pc;
+    padding-left: 20pc;
+    padding-right: 18pc;
+}
+
+#header-first-section .main-div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#header-first-section .main-div .first-div {
+    display: flex;
+    align-items: center;
+    gap: 1pc;
+}
+
+#header-first-section .main-div .first-div .name {
+    width: 8pc;
+}
+
+#header-first-section .main-div .first-div .number {
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+
+#header-first-section .main-div .first-div hr {
+    height: 18px;
+    background-color: white;
+}
+
+#header-first-section .main-div .lists-menu {
+    display: flex;
+    margin-left: 29pc;
+}
+
+#header-first-section .main-div .lists-menu ul {
+    display: flex;
+    gap: 3pc;
+}
+
+#header-first-section .main-div .lists-menu ul li a {
+    color: white;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#header-first-section .main-div .lists-menu .laungage-div {
+    margin-left: 3pc;
+}
+
+#header-navigation {
+    height: 6pc;
+    padding-left: 20pc;
+    padding-right: 20pc;
+    background-color: #ffffff;
+}
+
+#header-navigation .main-div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.7pc;
+}
+
+#header-navigation .main-div .first-div-img {
+    display: flex;
+    align-items: center;
+    gap: 1pc;
+}
+
+#header-navigation .main-div .first-div-img img {
+    width: 10pc;
+}
+
+#header-navigation .main-div .first-div-img button {
+    width: 10pc;
+    height: 3pc;
+    background-color: #8dc63f;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1pc;
+}
+
+#header-navigation .main-div .second-div-input {
+    display: flex;
+    align-items: center;
+    gap: 1pc;
+}
+
+#header-navigation .main-div .second-div-input input {
+    height: 49.5px;
+    width: 32pc;
+    border: 1.5px solid rgb(175, 170, 170);
+    border-radius: 11px;
+    padding-left: 1pc;
+}
+
+#header-navigation .main-div .second-div-input button {
+    background-color: #d32f2f;
+    border: none;
+    width: 10pc;
+    height: 3.5pc;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#header-navigation .main-div .div-something {
+    display: flex;
+    gap: 1pc;
+}
+
+#header-navigation .main-div .div-something a {
+    color: black;
+    font-family: serif;
+    font-weight: bold;
+}
+
+main {
+    padding-left: 20pc;
+    padding-right: 17pc;
+}
+
+#first-main-section .main-div {
+    display: flex;
+    border-bottom-left-radius: 15px;
+    overflow: hidden;
+    border-bottom-right-radius: 15px;
+    padding-top: 2.5pc;
+    gap: 1pc;
+}
+
+#first-main-section .main-div .banner1 {
+    overflow: hidden;
+    width: 56pc;
+    border-radius: 1pc;
+    cursor: pointer;
+}
+
+#first-main-section .main-div .mini-banner2 {
+    background-color: white;
+    height: 25pc;
+}
+
+#first-main-section .main-div .mini-banner2 .img-div {
+    width: 24pc;
+    height: 55px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+}
+
+#first-main-section .main-div .mini-banner2 .img-div img {
+    width: 100%;
+    height: 100%;
+}
+
+#first-main-section .main-div .mini-banner2 .main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#first-main-section .main-div .mini-banner2 .main-info .title-good h2 {
+    font-size: 1pc;
+    font-weight: bold;
+}
+
+#first-main-section .main-div .mini-banner2 .main-info .product-img {
+    width: 16pc;
+}
+
+#first-main-section .main-div .mini-banner2 .main-info .product-img img {
+    width: 100%;
+    height: 100%;
+}
+
+#first-main-section .main-div .mini-banner2 .main-info .down {
+    display: flex;
+    gap: 2pc;
+    align-items: center;
+}
+
+#first-main-section .main-div .mini-banner2 .main-info .down span {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#first-main-section .main-div .mini-banner2 .main-info .down .buttons {
+    display: flex;
+    gap: 1pc;
+}
+
+#first-main-section .main-div .mini-banner2 .main-info .down .buttons .btn1 {
+    background-color: #eceef3;
+    border: 1.5px solid #495b8a;
+    width: 7pc;
+    height: 42px;
+    border-radius: 9px;
+    font-family: sans-serif;
+}
+
+#first-main-section .main-div .mini-banner2 .main-info .down .buttons .btn2 {
+    background-color: #8dc63f;
+    border: none;
+    width: 7pc;
+    height: 42px;
+    border-radius: 9px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#first-main-section
+    .main-div
+    .mini-banner2
+    .main-info
+    .down
+    .buttons
+    .btn2:hover {
+    background-color: #648f29;
+}
+
+#only-reclam-section .main-div {
+    padding-top: 4.5pc;
+}
+
+#only-reclam-section .main-div .img-div {
+    cursor: pointer;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+#cards-section .main-div {
+    padding-top: 3pc;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5pc;
+}
+
+#cards-section .main-div .card1 {
+    overflow: hidden;
+    width: 23pc;
+    background-color: white;
+    border: 1.5px solid #dadada;
+    padding-left: 1pc;
+    padding-right: 1pc;
+    border-radius: 17px;
+    height: 27pc;
+}
+
+#cards-section .main-div .card1 .up-info .icon-mini-txt-div {
+    display: flex;
+    align-items: center;
+    gap: 8pc;
+}
+
+#cards-section .main-div .card1 .up-info .icon-mini-txt-div .txt {
+    background-color: #7b6d89;
+    font-size: 12px;
+    width: 7pc;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    right: 1pc;
+}
+
+#cards-section .main-div .card1 .up-info .icon-mini-txt-div .txt p {
+    font-weight: bold;
+}
+
+#cards-section .main-div .card1 .up-info .icon-mini-txt-div .fa-heart {
+    font-size: 23px;
+    position: relative;
+    top: 1pc;
+    cursor: pointer;
+    left: 63px;
+}
+
+#cards-section .main-div .card1 .middle-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards-section .main-div .card1 .middle-info .img-div {
+    width: 13pc;
+}
+
+#cards-section .main-div .card1 .middle-info .img-div img {
+    width: 100%;
+    height: 100%;
+}
+
+#cards-section .main-div .card1 .middle-info .product-name-div {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 1.5pc;
+}
+
+#cards-section .main-div .card1 .middle-info .product-name-div span {
+    cursor: pointer;
+}
+
+#cards-section .main-div .card1 .middle-info .product-name-div span:hover {
+    color: red;
+}
+
+#cards-section .main-div .card1 .down-info {
+    display: flex;
+    gap: 5pc;
+}
+
+#cards-section .main-div .card1 .down-info .price-class #price {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#cards-section .main-div .card1 .down-info .months-div ul {
+    display: flex;
+    gap: 1pc;
+    background-color: #ebebeb;
+    color: #adadb3;
+    height: 27px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 13px;
+    border-radius: 6px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+#cards-section .main-div .card1 .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#cards-section .main-div .card1 .buttons button {
+    background-color: #8dc63f;
+    border: none;
+    color: white;
+    width: 18pc;
+    height: 38px;
+    border-radius: 8px;
+    font-family: system-ui;
+}
+
+#cards-section .main-div .card1 .buttons button:hover {
+    background-color: #648f29;
+}
+
+#cards-section .main-div #more-button {
+    margin: 0 auto;
+    border: 1.5px solid #da393f;
+    color: #da393f;
+    width: 11pc;
+    height: 2pc;
+    border-radius: 5pc;
+    background-color: white;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 4pc;
+}
+
+#cards-section .main-div #more-button:hover {
+    border: 2.5px solid #da393f;
+    background-color: #da393e3e;
+}
+
+footer {
+    background-color: #383e42;
+    padding-left: 20pc;
+    padding-right: 17pc;
+    height: 22pc;
+}
+
+#footer-last-section {
+    height: 100%;
+}
+
+#footer-last-section .main-div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#footer-last-section .main-div .lists-div {
+    display: flex;
+    gap: 1pc;
+}
+
+#footer-last-section .main-div .lists-div ul li h2 {
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+#footer-last-section .main-div .lists-div ul li a {
+    font-size: 12px;
+    color: #dbdbdb;
+}
+
+#footer-last-section .main-div .lists-div ul li a:hover {
+    text-decoration: underline;
+}
+
+#footer-last-section .main-div .div2 {
+    border-left: 1.5px solid white;
+    border-right: 1.5px solid white;
+    padding-right: 4.5pc;
+}
+
+#footer-last-section .main-div .lists-div .div2 ul li a:hover {
+    text-decoration: underline;
+}
+
+#footer-last-section .main-div .lists-div .div3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-last-section .main-div .lists-div .div3 .images {
+    display: flex;
+    gap: 1pc;
+
+    cursor: pointer;
+    width: 11pc;
+}
+
+#footer-last-section .main-div .lists-div .div3 #num {
+    position: relative;
+    left: 13pc;
+    bottom: 2pc;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#footer-last-section .main-div .lists-div .div3 .social-media-div {
+    padding-left: 10px;
+}
+
+#footer-last-section .main-div .lists-div .div3 .social-media-div span {
+    color: white;
+    font-family: system-ui;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#footer-last-section .main-div .lists-div .div3 .social-media-div .icons {
+    font-size: 23px;
+    color: white;
+    margin-top: 1pc;
+    border-bottom: 1px solid;
+    padding-bottom: 2pc;
+}
+
+#footer-last-section .main-div .lists-div .div3 .social-media-div button {
+    border: 1px solid white;
+    width: 15pc;
+    font-family: monospace;
+    font-size: 11px;
+    height: 2pc;
+    background-color: #383e42;
+    color: white;
+    border-radius: 5pc;
+    border-radius: 5pc;
+    margin-top: 1.5pc;
+}
